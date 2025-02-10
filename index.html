@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components PC Barats - Els Millors Productes Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="capçalera">
+        <h1>Components PC Barats - Els Millors Productes Tech</h1>
+    </header>
+
+    <nav class="navegacio">
+        <a href="#productes">Productes</a>
+        <a href="#contacte">Contacte</a>
+    </nav>
+
+    <div class="contenidor" id="productes">
+        <div class="llista-productes">
+            <div class="targeta-producte">
+                <img src="https://m.media-amazon.com/images/I/71tLMVtcsfL.__AC_SX300_SY300_QL70_ML2_.jpg" alt="Producte 1" class="imatge-producte">
+                <h2 class="titol-producte">CORSAIR VENGEANCE DDR5 32GB (2x16GB)</h2>
+                <p class="preu-producte">99,99€</p>
+                <p>DDR5 6000MHz CL36</p>
+                <a href="https://amzn.to/4jUBjC8" class="botó-compra" target="_blank">Veure a Amazon</a>
+            </div>
+
+            <div class="targeta-producte">
+                <img src="https://m.media-amazon.com/images/I/61q0rsE3ezL._AC_SX569_.jpg" alt="Producte 2" class="imatge-producte">
+                <h2 class="titol-producte">MSI GeForce RTX™ 4060</h2>
+                <p class="preu-producte">331,00€</p>
+                <p>VENTUS 2X BLACK 8G OC Tarjeta gráfica -NVIDIA RTX 4060, 8GB de memoria GDDR6, 18Gbps, PCIe 4.0, DLSS3</p>
+                <a href="https://amzn.to/4aScRgQ" class="botó-compra" target="_blank">Veure a Amazon</a>
+            </div>
+
+            <div class="targeta-producte">
+                <img src="https://m.media-amazon.com/images/I/51W5aZlKQeL._AC_SX569_.jpg" alt="Producte 3" class="imatge-producte">
+                <h2 class="titol-producte">Crucial T500 SSD 1TB PCIe Gen4 NVMe M.2 SSD</h2>
+                <p class="preu-producte">89,99€</p>
+                <p>Hasta 7300 MB/s, TLC NAND, Compatible con Ordenador Portátil y de Sobremesa, Disco Duro SSD, Microsoft DirectStorage - CT1000T500SSD8</p>
+                <a href="https://amzn.to/4hR8PYb" class="botó-compra" target="_blank">Veure a Amazon</a>
+            </div>
+        </div>
+    </div>
+    <div class="contenidor" id="productes">
+        <div class="llista-productes">
+            
+            <div class="targeta-producte">
+                <img src="https://m.media-amazon.com/images/I/61IIbwz-+ML._AC_SX569_.jpg" alt="Processador AMD Ryzen 5" class="imatge-producte">
+                <h2 class="titol-producte">AMD Ryzen 5 7800X</h2>
+                <p class="preu-producte">163,33€</p>
+                <p>Processador 6 nuclis/12 fils, 4.7 GHz base, 5.3 GHz turbo</p>
+                <a href="https://amzn.to/40VUFOG" class="botó-compra" target="_blank">Veure a Amazon</a>
+            </div>
+    
+            <div class="targeta-producte">
+                <img src="https://m.media-amazon.com/images/I/81ogi-krqkL._AC_SX569_.jpg" alt="Placa base ASUS TUF" class="imatge-producte">
+                <h2 class="titol-producte">ASUS TUF GAMING B650-PLUS</h2>
+                <p class="preu-producte">213,80€</p>
+                <p>Placa base AMD AM5, DDR5, PCIe 5.0, WiFi 6</p>
+                <a href="https://amzn.to/40ToeAt" class="botó-compra" target="_blank">Veure a Amazon</a>
+            </div>
+    
+            <div class="targeta-producte">
+                <img src="https://m.media-amazon.com/images/I/71KlTBqR36L._AC_SX569_.jpg" alt="Font alimentació Corsair" class="imatge-producte">
+                <h2 class="titol-producte">Corsair RM750e 750W</h2>
+                <p class="preu-producte">139,90€</p>
+                <p>Font d'alimentació 80+ Gold modular, ventilador silenciós</p>
+                <a href="https://amzn.to/3QaCqzY" class="botó-compra" target="_blank">Veure a Amazon</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="formulari-contacte" id="contacte">
+        <div class="contenidor">
+            <h2>Formulari de Contacte</h2>
+            <form action="mailto:maguilera6@milaifontanals.org" method="post" enctype="text/plain">
+                <div class="grup-formulari">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                
+                <div class="grup-formulari">
+                    <label for="email">Correu electrònic:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="grup-formulari">
+                    <label for="missatge">Missatge:</label>
+                    <textarea id="missatge" name="missatge" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="botó-compra">Enviar Missatge</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="peu-pagina">
+        <p>© Components PC Barats - Tots els drets reservats</p>
+    </footer>
+</body>
+</html>

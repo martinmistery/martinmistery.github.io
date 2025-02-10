@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.capçalera {
+    background-color: #232f3e;
+    padding: 20px;
+    text-align: center;
+}
+
+.capçalera h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.navegacio {
+    background-color: #ff9900;
+    padding: 15px;
+    text-align: center;
+}
+
+.navegacio a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.contenidor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.llista-productes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.targeta-producte {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.targeta-producte:hover {
+    transform: translateY(-5px);
+}
+
+.imatge-producte {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.titol-producte {
+    color: #131A22;
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+.preu-producte {
+    color: #B12704;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.botó-compra {
+    background-color: #ff9900;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 1.1em;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botó-compra:hover {
+    background-color: #ff8800;
+}
+
+.peu-pagina {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.enllaç-afiliats {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .llista-productes {
+        grid-template-columns: 1fr;
+    }
+}
+.formulari-contacte {
+    background-color: #ffffff;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+
+.formulari-contacte h2 {
+    color: #232f3e;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.grup-formulari {
+    margin-bottom: 25px;
+}
+
+.grup-formulari label {
+    display: block;
+    margin-bottom: 8px;
+    color: #131A22;
+    font-weight: bold;
+}
+
+.grup-formulari input,
+.grup-formulari textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.grup-formulari textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: auto;
+    padding: 12px 40px;
+    margin-top: 15px;
+}
